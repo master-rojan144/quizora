@@ -1,0 +1,143 @@
+.quiz-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  padding-top: 100px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.quiz-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px 30px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.question-count {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.7);
+}
+
+.timer {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.progress-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #a855f7, #60a5fa);
+  transition: width 0.4s ease;
+}
+
+.question {
+  font-size: 1.65rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Vertical Options */
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.option-btn {
+  padding: 18px 24px;
+  font-size: 1.1rem;
+  background: rgba(255,255,255,0.08);
+  border: 2px solid rgba(255,255,255,0.15);
+  border-radius: 16px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+  width: 100%;
+}
+
+.option-btn:hover:not(:disabled) {
+  background: rgba(255,255,255,0.15);
+  transform: translateX(8px);
+}
+
+.option-btn.correct {
+  background: #22c55e !important;
+  border-color: #22c55e;
+  color: white;
+}
+
+.option-btn.wrong {
+  background: #ef4444 !important;
+  border-color: #ef4444;
+}
+
+/* Result Screen */
+.result-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result-card {
+  text-align: center;
+  background: rgba(255,255,255,0.08);
+  padding: 60px 40px;
+  border-radius: 28px;
+  backdrop-filter: blur(12px);
+  max-width: 420px;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.score-circle {
+  width: 160px;
+  height: 160px;
+  margin: 30px auto;
+  border-radius: 50%;
+  border: 8px solid #a855f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.percentage {
+  font-size: 2.2rem;
+  color: #60a5fa;
+  margin: 10px 0;
+}
+
+.restart-btn {
+  margin-top: 30px;
+  padding: 16px 48px;
+  font-size: 1.2rem;
+  background: linear-gradient(90deg, #a855f7, #60a5fa);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight: 700;
+}

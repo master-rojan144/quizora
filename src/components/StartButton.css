@@ -1,0 +1,20 @@
+.start-btn {
+  background: linear-gradient(90deg, #fcd34d, #fbbf24);
+  color: #1e1b4b;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 16px 56px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 30px 0;
+  box-shadow: 0 10px 30px rgba(251, 191, 36, 0.45);
+  transition: all 0.3s ease;
+}
+
+.start-btn:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(251, 191, 36, 0.5);
+}

@@ -1,0 +1,91 @@
+.leaderboard-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  padding: 100px 20px 60px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.leaderboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 40px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.leaderboard-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.leaderboard-header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.leaderboard-header p {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.leaderboard-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.leaderboard-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 18px 24px;
+  border-radius: 16px;
+  transition: all 0.3s;
+}
+
+.leaderboard-row:hover {
+  background: rgba(255, 255, 255, 0.12);
+  transform: translateX(8px);
+}
+
+.rank {
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 50px;
+  color: #a855f7;
+}
+
+.player-info {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex: 1;
+}
+
+.avatar {
+  font-size: 2rem;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.score {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffd166;
+}
+
+.your-rank {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  font-size: 1.1rem;
+}
