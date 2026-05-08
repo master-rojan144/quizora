@@ -18,7 +18,7 @@ export default function Footer() {
         <div className="footer-links">
           <div className="link-column">
             <h4>PLATFORM</h4>
-            <a href="#">Home</a>
+            <a href="https://instagram.com">Home</a>
             <p>Quizzes</p>
             <p>Leaderboard</p>
           </div>
@@ -28,17 +28,17 @@ export default function Footer() {
           </div>
           <div className="link-column">
             <h4>LEGAL</h4>
-            <a href="#">Privacy</a>
-            <a href="#">Terms</a>
+            <a href="https://instagram.com">Privacy</a>
+            <a href="https://instagram.com">Terms</a>
           </div>
         </div>
 
         {/* Right Side */}
         <div className="footer-right">
           <div className="social-icons">
-            <a href="#">𝕏</a>
-            <a href="#">📘</a>
-            <a href="#">📷</a>
+            <a href="intagram.com">X</a>
+            <a href="https://instagram.com">📘</a>
+            <a href="https://instagram.com">📷</a>
           </div>
           <p className="copyright">© 2026 Quizora. All rights reserved.</p>
         </div>
